@@ -270,7 +270,7 @@ const Login = () => {
 
               <div className="form-group">
                 <Button type="submit" className="btn-blue btn-lg w-100 btn-big">
-                  {isLoading === true ? <CircularProgress /> : "Sign In "}
+                  {isLoading === true ? <CircularProgress /> : "Iniciar sesion"}
                 </Button>
               </div>
 
