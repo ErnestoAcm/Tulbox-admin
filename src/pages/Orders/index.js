@@ -107,7 +107,7 @@ const Orders = () => {
               />
 
               <StyledBreadcrumb
-                label="Ordenes"
+                label="Pedidos"
                 deleteIcon={<ExpandMoreIcon />}
               />
             </Breadcrumbs>

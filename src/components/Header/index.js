@@ -66,7 +66,7 @@ const Header = () => {
     context.setAlertBox({
       open: true,
       error: false,
-      msg: "Logout successfull",
+      msg: "Cierre de sesión exitoso",
     });
 
     setTimeout(() => {
@@ -137,7 +137,7 @@ const Header = () => {
                   anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
                 >
                   <div className="head pl-3 pb-0">
-                    <h4>Orders (12) </h4>
+                    <h4>Pedidos (12) </h4>
                   </div>
 
                   <Divider className="mb-1" />
@@ -156,12 +156,12 @@ const Header = () => {
                         <div className="dropdownInfo">
                           <h4>
                             <span>
-                              <b>Mahmudul </b>
-                              added to his favorite list
-                              <b> Leather belt steve madden</b>
+                              <b>Jose </b>
+                              añadido a su lista de favoritos
+                              <b> Cinturón de piel de Steve Madden</b>
                             </span>
                           </h4>
-                          <p className="text-sky mb-0">few seconds ago</p>
+                          <p className="text-sky mb-0">Hace unos segundos</p>
                         </div>
                       </div>
                     </MenuItem>
@@ -179,12 +179,12 @@ const Header = () => {
                         <div className="dropdownInfo">
                           <h4>
                             <span>
-                              <b>Mahmudul </b>
-                              added to his favorite list
-                              <b> Leather belt steve madden</b>
+                              <b>Jose </b>
+                              añadido a su lista de favoritos
+                              <b> Cinturón de piel de Steve Madden</b>
                             </span>
                           </h4>
-                          <p className="text-sky mb-0">few seconds ago</p>
+                          <p className="text-sky mb-0">Hace unos segundos</p>
                         </div>
                       </div>
                     </MenuItem>
@@ -202,12 +202,12 @@ const Header = () => {
                         <div className="dropdownInfo">
                           <h4>
                             <span>
-                              <b>Mahmudul </b>
-                              added to his favorite list
-                              <b> Leather belt steve madden</b>
+                              <b>Jose </b>
+                              añadido a su lista de favoritos
+                              <b> Cinturón de piel de Steve Madden</b>
                             </span>
                           </h4>
-                          <p className="text-sky mb-0">few seconds ago</p>
+                          <p className="text-sky mb-0">Hace unos segundos</p>
                         </div>
                       </div>
                     </MenuItem>
@@ -225,12 +225,12 @@ const Header = () => {
                         <div className="dropdownInfo">
                           <h4>
                             <span>
-                              <b>Mahmudul </b>
-                              added to his favorite list
-                              <b> Leather belt steve madden</b>
+                              <b>Jose </b>
+                              añadido a su lista de favoritos
+                              <b> Cinturón de piel de Steve Madden</b>
                             </span>
                           </h4>
-                          <p className="text-sky mb-0">few seconds ago</p>
+                          <p className="text-sky mb-0">Hace unos segundos</p>
                         </div>
                       </div>
                     </MenuItem>
@@ -248,12 +248,12 @@ const Header = () => {
                         <div className="dropdownInfo">
                           <h4>
                             <span>
-                              <b>Mahmudul </b>
-                              added to his favorite list
-                              <b> Leather belt steve madden</b>
+                              <b>Jose </b>
+                              añadido a su lista de favoritos
+                              <b> Cinturón de piel de Steve Madden</b>
                             </span>
                           </h4>
-                          <p className="text-sky mb-0">few seconds ago</p>
+                          <p className="text-sky mb-0">Hace unos segundos</p>
                         </div>
                       </div>
                     </MenuItem>
@@ -271,12 +271,12 @@ const Header = () => {
                         <div className="dropdownInfo">
                           <h4>
                             <span>
-                              <b>Mahmudul </b>
-                              added to his favorite list
-                              <b> Leather belt steve madden</b>
+                              <b>Jose </b>
+                              añadido a su lista de favoritos
+                              <b> Cinturón de piel de Steve Madden</b>
                             </span>
                           </h4>
-                          <p className="text-sky mb-0">few seconds ago</p>
+                          <p className="text-sky mb-0">Hace unos segundos</p>
                         </div>
                       </div>
                     </MenuItem>
@@ -284,7 +284,7 @@ const Header = () => {
 
                   <div className="pl-3 pr-3 w-100 pt-2 pb-1">
                     <Button className="btn-blue w-100">
-                      View all notifications
+                      Ver todas las notificaciones
                     </Button>
                   </div>
                 </Menu>
@@ -292,7 +292,9 @@ const Header = () => {
 
               {context.isLogin !== true ? (
                 <Link to={"/login"}>
-                  <Button className="btn-blue btn-lg btn-round">Sign In</Button>
+                  <Button className="btn-blue btn-lg btn-round">
+                    Iniciar sesión
+                  </Button>
                 </Link>
               ) : (
                 <div className="myAccWrapper">
@@ -325,13 +327,13 @@ const Header = () => {
                       <ListItemIcon>
                         <PersonAdd fontSize="small" />
                       </ListItemIcon>
-                      My Account
+                      Mi cuenta
                     </MenuItem>
                     <MenuItem onClick={handleCloseMyAccDrop}>
                       <ListItemIcon>
                         <IoShieldHalfSharp />
                       </ListItemIcon>
-                      Reset Password
+                      Restablecer contraseña
                     </MenuItem>
                     <MenuItem onClick={logout}>
                       <ListItemIcon>

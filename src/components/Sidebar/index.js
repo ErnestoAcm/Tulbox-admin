@@ -42,7 +42,7 @@ const Sidebar = () => {
     context.setAlertBox({
       open: true,
       error: false,
-      msg: "Logout successfull",
+      msg: "Cierre de sesión exitoso",
     });
 
     setTimeout(() => {

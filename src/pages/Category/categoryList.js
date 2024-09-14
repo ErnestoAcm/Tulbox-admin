@@ -88,12 +88,12 @@ const Category = () => {
               <StyledBreadcrumb
                 component="a"
                 href="#"
-                label="Dashboard"
+                label="Panel"
                 icon={<HomeIcon fontSize="small" />}
               />
 
               <StyledBreadcrumb
-                label="Category"
+                label="Categoría"
                 deleteIcon={<ExpandMoreIcon />}
               />
             </Breadcrumbs>

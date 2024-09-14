@@ -62,7 +62,7 @@ const CountryDropdown = (props) => {
               ? context.selectedCountry?.length > 10
                 ? context.selectedCountry?.substr(0, 10) + "..."
                 : context.selectedCountry
-              : "Select Location"}
+              : "Seleccione la ubicación"}
           </span>
         </div>
         <span className="ml-auto">
@@ -85,7 +85,7 @@ const CountryDropdown = (props) => {
         <div className="headerSearch w-100">
           <input
             type="text"
-            placeholder="Search your area..."
+            placeholder="Busca tu zona..."
             onChange={filterList}
           />
           <Button>

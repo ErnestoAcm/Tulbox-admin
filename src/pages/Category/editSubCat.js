@@ -116,7 +116,7 @@ const EditSubCat = () => {
           <StyledBreadcrumb
             component="a"
             href="#"
-            label="Dashboard"
+            label="Panel"
             icon={<HomeIcon fontSize="small" />}
           />
 

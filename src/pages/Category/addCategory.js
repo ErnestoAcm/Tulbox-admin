@@ -229,18 +229,18 @@ const AddCategory = () => {
             <StyledBreadcrumb
               component="a"
               href="#"
-              label="Dashboard"
+              label="Panel"
               icon={<HomeIcon fontSize="small" />}
             />
 
             <StyledBreadcrumb
               component="a"
-              label="Category"
+              label="Categoría"
               href="#"
               deleteIcon={<ExpandMoreIcon />}
             />
             <StyledBreadcrumb
-              label="Add Category"
+              label="Agregar Categoría"
               deleteIcon={<ExpandMoreIcon />}
             />
           </Breadcrumbs>
